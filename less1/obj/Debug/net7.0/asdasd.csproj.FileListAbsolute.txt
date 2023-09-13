@@ -1,0 +1,15 @@
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\bin\Debug\net7.0\asdasd.exe
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\bin\Debug\net7.0\asdasd.deps.json
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\bin\Debug\net7.0\asdasd.runtimeconfig.json
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\bin\Debug\net7.0\asdasd.dll
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\bin\Debug\net7.0\asdasd.pdb
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.csproj.AssemblyReference.cache
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.AssemblyInfoInputs.cache
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.AssemblyInfo.cs
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.csproj.CoreCompileInputs.cache
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.dll
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\refint\asdasd.dll
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.pdb
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\asdasd.genruntimeconfig.cache
+C:\Users\sbencecsaba\Documents\Git3\backEnd\weatherForecast\asdasd\obj\Debug\net7.0\ref\asdasd.dll

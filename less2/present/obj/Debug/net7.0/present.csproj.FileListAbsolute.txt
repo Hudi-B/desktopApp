@@ -1,0 +1,14 @@
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\bin\Debug\net7.0\present.exe
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\bin\Debug\net7.0\present.deps.json
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\bin\Debug\net7.0\present.runtimeconfig.json
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\bin\Debug\net7.0\present.dll
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\bin\Debug\net7.0\present.pdb
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.AssemblyInfoInputs.cache
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.AssemblyInfo.cs
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.csproj.CoreCompileInputs.cache
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.dll
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\refint\present.dll
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.pdb
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\present.genruntimeconfig.cache
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\less2\present\obj\Debug\net7.0\ref\present.dll

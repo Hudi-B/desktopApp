@@ -1,0 +1,14 @@
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\bin\Debug\net7.0\Oroklodes.exe
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\bin\Debug\net7.0\Oroklodes.deps.json
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\bin\Debug\net7.0\Oroklodes.runtimeconfig.json
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\bin\Debug\net7.0\Oroklodes.dll
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\bin\Debug\net7.0\Oroklodes.pdb
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.AssemblyInfoInputs.cache
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.AssemblyInfo.cs
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.csproj.CoreCompileInputs.cache
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.dll
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\refint\Oroklodes.dll
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.pdb
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\Oroklodes.genruntimeconfig.cache
+C:\Users\Balázs\Documents\Git\DesktopApplications\Oroklodes\obj\Debug\net7.0\ref\Oroklodes.dll

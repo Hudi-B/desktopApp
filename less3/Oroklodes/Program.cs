@@ -32,7 +32,6 @@ namespace Oroklodes14C
 
         public Allat(string hely)
         {
-
             this.hely = hely;
         }
 

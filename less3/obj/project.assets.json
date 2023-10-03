@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sbencecsaba\\Documents\\Git3\\desktopApp\\less1\\asdasd.csproj",
-      "projectName": "asdasd",
-      "projectPath": "C:\\Users\\sbencecsaba\\Documents\\Git3\\desktopApp\\less1\\asdasd.csproj",
+      "projectUniqueName": "C:\\Users\\sbencecsaba\\Documents\\Git3\\desktopApp\\less3\\less3.csproj",
+      "projectName": "less3",
+      "projectPath": "C:\\Users\\sbencecsaba\\Documents\\Git3\\desktopApp\\less3\\less3.csproj",
       "packagesPath": "C:\\Users\\sbencecsaba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sbencecsaba\\Documents\\Git3\\desktopApp\\less1\\obj\\",
+      "outputPath": "C:\\Users\\sbencecsaba\\Documents\\Git3\\desktopApp\\less3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

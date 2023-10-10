@@ -1,0 +1,17 @@
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\osztalyok.exe
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\ferfi.txt
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\noi.txt
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\vezeteknevek.txt
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\osztalyok.deps.json
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\osztalyok.runtimeconfig.json
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\osztalyok.dll
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\bin\Debug\net7.0\osztalyok.pdb
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.AssemblyInfoInputs.cache
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.AssemblyInfo.cs
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.csproj.CoreCompileInputs.cache
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.dll
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\refint\osztalyok.dll
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.pdb
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\osztalyok.genruntimeconfig.cache
+C:\Users\sbencecsaba\Documents\Git3\desktopApp\osztalyok\obj\Debug\net7.0\ref\osztalyok.dll

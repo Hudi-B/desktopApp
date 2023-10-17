@@ -76,12 +76,13 @@ namespace oroklesGyak
             {
                 string[] x = line.Split(' ');
                 if (x[0] == "Pogacsa") arlap.Add(new Pogacsa(int.Parse(x[1]), double.Parse(x[2])));
-                else arlap.Add(new Kave((x[1] == "habos" ? 1 : 0)));
+                else arlap.Add(new Kave((x[1] == "habos" ? true : false)));
             }
         }
         static void Main(string[] args)
         {
-            
+            Vasarlok("Pekseg.txt");
+
         }
     }
 }

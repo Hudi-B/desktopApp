@@ -1,0 +1,15 @@
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\bin\Debug\net6.0\urhajo.exe
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\bin\Debug\net6.0\urhajo.deps.json
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\bin\Debug\net6.0\urhajo.runtimeconfig.json
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\bin\Debug\net6.0\urhajo.dll
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\bin\Debug\net6.0\urhajo.pdb
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.AssemblyInfoInputs.cache
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.AssemblyInfo.cs
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.csproj.CoreCompileInputs.cache
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.dll
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\refint\urhajo.dll
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.pdb
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\urhajo.genruntimeconfig.cache
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\obj\Debug\net6.0\ref\urhajo.dll
+C:\Users\sbencecsaba\Documents\Git\desktopApp\urhajo\bin\Debug\net6.0\Urhajok.txt

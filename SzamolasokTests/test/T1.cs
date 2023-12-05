@@ -43,5 +43,17 @@ namespace unitTest.tesztek
             Szamol sz = new Szamol(6);
             Assert.That(x, Is.EqualTo(sz.SzerkezhetoEaHaromszog(a, b, c)));
         }
+
+        [Test]
+        public void SzerkezhetoNullTest()
+        {
+            Szamol sz = new Szamol(6);
+            Assert.Throws<FormatException>(
+                () =>
+                {
+                    sz.SzerkezhetoEaHaromszog(20,20,Convert.ToDouble("b"));
+                }
+            );
+        }
     }
 }

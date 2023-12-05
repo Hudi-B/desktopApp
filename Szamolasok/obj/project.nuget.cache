@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "74K5Q4OwhSp8naUeT/EElwWjitx71ivuL+avN62zVuCFCZIkQrJEZ1/Bg9+HNExcj8Wo6DQPkoANNZZic7VZpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sbencecsaba\\Documents\\Git\\desktopApp\\Szamolasok\\Szamolasok.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sbencecsaba\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\sbencecsaba\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

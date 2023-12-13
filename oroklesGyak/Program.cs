@@ -1,4 +1,5 @@
 ﻿using System.Reflection.Metadata;
+using System.Runtime.CompilerServices;
 
 namespace oroklesGyak
 {
@@ -52,6 +53,8 @@ namespace oroklesGyak
         const double CSESZEKAVE = 100;
         public double ar;
 
+        public bool HabosE { get => habosE; set => habosE = value; }
+
         public Kave(bool habosE)
         {
             this.habosE = habosE;
@@ -64,7 +67,7 @@ namespace oroklesGyak
 
         public override string ToString()
         {
-            return $"{(habosE ? "Habos" : "Nem habos")} kávé {MennyibeKerul()}";
+            return $"{(habosE ? "Habos" : "Nem habos")} kávé {MennyibeKerul()}Ft";
         }
     }
     internal class Futtato
@@ -83,6 +86,98 @@ namespace oroklesGyak
         {
             Vasarlok("Pekseg.txt");
 
+            //(1)mennyi entry van az arlapon
+            Console.WriteLine($"Arlap entrik: {arlap.Count}");
+            //(2)osszes pogacsa ara
+            double tempPog = 0;
+            foreach (var item in arlap)
+            {
+                if(item is Pogacsa)
+                {
+                    tempPog += item.MennyibeKerul();
+                }
+            }
+            Console.WriteLine(tempPog);
+            //(3)hany habos es nem habos kave van
+            int habos = 0;
+            int nHabos = 0;
+            foreach (var item in arlap)
+            {
+                if (item is Kave) {
+                    Kave tempKave = (Kave)item;
+                        if (tempKave.HabosE) habos++; else nHabos++;
+                }
+            }
+            Console.WriteLine($"hab:{habos} nohab:{nHabos}");
+            //(4)kave vagy pogacsa hozza adasa a listahoz
+            bool isKave = false;
+            Console.Write("Kave vagy Pogacsat szeretne hozza adni?[0=Kave 1=Pogacsa]:");
+            isKave = Console.ReadLine() == "0" ? true : false;
+            bool isKaveHabos = false;
+            int pogacsaAmnt, defaultPrice;
+            if (isKave)
+            {
+                Console.Write("Habos a kave?[0=Nem 1=Igen]:");
+                isKaveHabos = Console.ReadLine() == "0" ? false : true;
+                arlap.Add(new Kave(isKaveHabos));
+            }
+            else
+            {
+                Console.Write("Hany darab?[szam]:");
+                pogacsaAmnt = int.Parse(Console.ReadLine()!);
+                Console.WriteLine("Milyen alapar?[szam]:");
+                defaultPrice = int.Parse(Console.ReadLine()!);
+                arlap.Add(new Pogacsa(pogacsaAmnt, defaultPrice));
+            }
+            //(5)legdragabb pogacsa arlap entry
+            double pogacsaExpensive = 0;
+
+            foreach (var item in arlap)
+            {
+                if (item is Pogacsa)
+                {
+                    pogacsaExpensive = item.MennyibeKerul() > pogacsaExpensive ? item.MennyibeKerul() : pogacsaExpensive;
+                }
+            }
+
+            int pogacsaIndex = arlap.FindIndex(p => p.MennyibeKerul() == pogacsaExpensive);
+
+            Console.WriteLine(arlap[pogacsaIndex].ToString());
+            //(6)pogacsak osszes erteke
+            double sumOfPogacsa = 0;
+            foreach (var item in arlap)
+            {
+                if (item is Pogacsa)
+                {
+                    sumOfPogacsa += item.MennyibeKerul();
+                }
+            }
+            Console.WriteLine($"Az pogacsak osszerteke: {sumOfPogacsa}Ft");
+            //(7)kavek osszes erteke
+            double sumOfKave = 0;
+            foreach (var item in arlap)
+            {
+                if (item is Kave)
+                {
+                    sumOfKave += item.MennyibeKerul();
+                }
+            }
+            Console.WriteLine($"Az kavek osszerteke: {sumOfKave}Ft");
+            //(8)atlag ar
+            double sumOfShit = 0;
+            foreach (var item in arlap) sumOfShit += item.MennyibeKerul();
+            Console.WriteLine($"Az arlap atlag erteke: {(sumOfShit / arlap.Count).ToString("N0")}Ft");
+            //(9)ar szerint sorba rendezes
+            var sortedArlap = arlap.OrderBy(item => item.MennyibeKerul()).ToList();
+            foreach (var item in sortedArlap) Console.WriteLine(item);
+            //(10)mentes fajlba
+            using (StreamWriter sw = new("PeksegNew.txt"))
+            {
+                foreach (var item in sortedArlap)
+                {
+                    sw.WriteLine(item.ToString());
+                }
+            }
         }
     }
 }

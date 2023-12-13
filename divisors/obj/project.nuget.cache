@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hoyhW4jESXzNiAir70dggQ5dleY5C+dnQnxuI0g2vo2I0wlrSRSARVFp1aGEiH17SfjB3ON0Xl4vvgdIpoTYLw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sbencecsaba\\Documents\\Git\\desktopApp\\divisors\\divisors.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sbencecsaba\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
+    "C:\\Users\\sbencecsaba\\.nuget\\packages\\nunit3testadapter\\4.5.0\\nunit3testadapter.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

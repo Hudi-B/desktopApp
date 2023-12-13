@@ -1,0 +1,2 @@
+C:\Users\sbencecsaba\Documents\Git\desktopApp\T1\obj\Debug\T1.csproj.AssemblyReference.cache
+C:\Users\sbencecsaba\Documents\Git\desktopApp\T1\obj\Debug\T1.csproj.CoreCompileInputs.cache

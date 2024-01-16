@@ -35,6 +35,17 @@
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
+            <Button
+                x:Name="LoginNavBtn"
+                Text="Login" 
+                Clicked="OnLogNavigateButtonClicked"
+                HorizontalOptions="Center" />
+            
+            <Button
+                x:Name="CalcNavButton"
+                Text="Calculator" 
+                Clicked="OnCalcNavigateButtonClicked"
+                HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 

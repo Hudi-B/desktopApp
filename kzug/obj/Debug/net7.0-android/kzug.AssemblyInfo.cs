@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kzug")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f7690a72189a98060507a80a9db4b0b34627bbc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("kzug")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kzug")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

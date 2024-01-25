@@ -268,4 +268,3 @@ C:\Users\sbencecsaba\Documents\Git\desktopApp\kzug\obj\Debug\net7.0-ios\iossimul
 C:\Users\sbencecsaba\Documents\Git\desktopApp\kzug\obj\Debug\net7.0-ios\iossimulator-x64\kzug.pdb
 C:\Users\sbencecsaba\Documents\Git\desktopApp\kzug\obj\Debug\net7.0-ios\iossimulator-x64\kzug.genruntimeconfig.cache
 C:\Users\sbencecsaba\Documents\Git\desktopApp\kzug\obj\Debug\net7.0-ios\iossimulator-x64\ref\kzug.dll
-C:\Users\sbencecsaba\Documents\Git\desktopApp\kzug\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature

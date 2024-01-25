@@ -4,11 +4,19 @@
              x:Class="kzug.LoginPage"
              Title="LoginPage">
     <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
         <Label 
             Text="Login"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"
+            SemanticProperties.HeadingLevel="Level1"
+            FontSize="32" />
+
+        <Label 
+            x:Name="CountOut"
+            Text=""
             VerticalOptions="Center" 
             HorizontalOptions="Start"
             SemanticProperties.HeadingLevel="Level1"

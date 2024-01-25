@@ -5,6 +5,7 @@ public partial class LoginPage : ContentPage
 	public LoginPage()
 	{
 		InitializeComponent();
+        CountOut.Text = MainPage.Count.ToString();
 	}
     private async void OnLoginButtonClicked(object sender, EventArgs e)
     {

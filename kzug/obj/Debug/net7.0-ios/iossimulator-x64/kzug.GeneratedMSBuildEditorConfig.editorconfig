@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = kzug.CalculatorPage.xaml
 build_metadata.AdditionalFiles.TargetPath = CalculatorPage.xaml
 build_metadata.AdditionalFiles.RelativePath = CalculatorPage.xaml
 
+[C:/Users/sbencecsaba/Documents/Git/desktopApp/kzug/ListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = kzug.ListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ListPage.xaml
+
 [C:/Users/sbencecsaba/Documents/Git/desktopApp/kzug/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = kzug.LoginPage.xaml

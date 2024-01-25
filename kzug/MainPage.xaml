@@ -28,24 +28,33 @@
                 FontSize="18"
                 HorizontalOptions="Center" />
 
-            <Button
+            <HorizontalStackLayout
+                HorizontalOptions="Center">
+                <Button
                 x:Name="CounterBtn"
                 Text="Click me"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />
 
-            <Button
+                <Button
                 x:Name="LoginNavBtn"
                 Text="Login" 
                 Clicked="OnLogNavigateButtonClicked"
                 HorizontalOptions="Center" />
-            
-            <Button
+
+                <Button
                 x:Name="CalcNavButton"
                 Text="Calculator" 
                 Clicked="OnCalcNavigateButtonClicked"
                 HorizontalOptions="Center" />
+
+                <Button
+                x:Name="ListNavButton"
+                Text="ListPage" 
+                Clicked="OnListNavigateButtonClicked"
+                HorizontalOptions="Center" />
+            </HorizontalStackLayout>
         </VerticalStackLayout>
     </ScrollView>
 

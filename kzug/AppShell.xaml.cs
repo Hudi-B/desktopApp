@@ -7,6 +7,7 @@
             InitializeComponent();
             Routing.RegisterRoute("Login", typeof(LoginPage));
             Routing.RegisterRoute("Calculator", typeof(CalculatorPage));
+            Routing.RegisterRoute("List", typeof(ListPage));
         }
     }
 }

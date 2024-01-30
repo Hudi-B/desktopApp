@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loginList1.ListPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+
+    <StackLayout Margin="20">
+
+        <Label
+            x:Name="WelcomeMessage"
+            FontSize="28"
+            VerticalOptions="Start" />
+
+        <Entry
+            x:Name="TextIn"
+            Placeholder="New Item" />
+
+        <Label Text="List"
+               FontSize="24"
+               HorizontalOptions="Center"
+               Margin="0,0,0,20"/>
+
+        <ListView x:Name="itemsListView"
+                  ItemsSource="{Binding Items}"
+                  SelectionMode="Single"
+                  VerticalOptions="FillAndExpand"
+                  HasUnevenRows="True">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding}" FontSize="18"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <Button Text="Generate items"
+            Clicked="Generate_Clicked"
+            Margin="20" />
+
+        <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,20,0,0" HorizontalOptions="Center">
+            <Button Text="Add Item"
+                    Clicked="AddItem_Clicked"/>
+            <Button Text="Insert Item"
+                    Clicked="InsertItem_Clicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,20,0,0" HorizontalOptions="Center">
+            <Button Text="Delete Item"
+                Clicked="DeleteItem_Clicked"/>
+            <Button Text="Clear List"
+                Clicked="ClearList_Clicked"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,20,0,0" HorizontalOptions="Center">
+            <Button Text="Export List"
+                Clicked="SaveToFile_Clicked"
+                x:Name="ExportBtn" />
+            <Button Text="Import List"
+                Clicked="LoadFromFile_Clicked"
+                x:Name="ImportBtn"/>
+        </StackLayout>
+
+        <Button Text="Logout"
+            Clicked="Logout_Clicked"
+            Margin="20" />
+
+    </StackLayout>
+
+</ContentPage>

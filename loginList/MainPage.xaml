@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="loginList.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Label
+                Text="Login"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Start" />
+
+            <Image
+                Source="imageedit_3_3893777332_c4067ae601.png"
+                SemanticProperties.Description="Kando Kalman Logo"
+                HeightRequest="200"
+                HorizontalOptions="Center" />
+            
+            <Label
+                Text="Username:"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="UsernameEnt"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="400" />
+
+            <Label
+                Text="Password:"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <Entry
+                x:Name="PasswordEnt"
+                HorizontalOptions="Center"
+                MinimumWidthRequest="400" />
+
+            <Button
+                x:Name="LoginBtn"
+                Text="Login"
+                SemanticProperties.Hint="Login"
+                Clicked="LoginBtn_Clicked"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
